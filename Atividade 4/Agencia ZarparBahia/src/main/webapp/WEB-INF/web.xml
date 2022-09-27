@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>Agencia ZarparBahia</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>zarparbahia</display-name>
+    <servlet-name>zarparbahia</servlet-name>
+    <servlet-class>controller.zarparbahia</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>zarparbahia</servlet-name>
+    <url-pattern>/zarparbahia</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ControllerZarparbahia</display-name>
+    <servlet-name>ControllerZarparbahia</servlet-name>
+    <servlet-class>controller.ControllerZarparbahia</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControllerZarparbahia</servlet-name>
+    <url-pattern>/ControllerZarparbahia</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Controller2Zarparbahia</display-name>
+    <servlet-name>Controller2Zarparbahia</servlet-name>
+    <servlet-class>controller.Controller2Zarparbahia</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Controller2Zarparbahia</servlet-name>
+    <url-pattern>/Controller2Zarparbahia</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Pacotedeviagem</display-name>
+    <servlet-name>Pacotedeviagem</servlet-name>
+    <servlet-class>controller.Pacotedeviagem</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Pacotedeviagem</servlet-name>
+    <url-pattern>/Pacotedeviagem</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+  font-family: 'Roboto';
+}
+
+body {
+  background-color: #508bfc;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  width: 100%;
+
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  flex-direction: row;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  top: 0;
+  right: 0;
+  max-width: 100%;
+}
+
+.navbar>ul {
+  display: flex;
+}
+
+.navbar>ul>li {
+  margin-left: 2px;
+}
+
+.navbar>ul>li>a {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  padding: 8px;
+}
+
+.navbar>ul>li>a:hover {
+  color: rgb(162, 162, 162);
+  font-size: 14px;
+  padding: 8px;
+  transition: color 600ms;
+}
+
+.logo>a>img {
+  width: 50px;
+  
+  
+}
+
+footer {
+  background-color: #454545;
+  height: 200px auto;
+}
+
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:200px;
+  height:32px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:91px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:60px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+
+#divBusca img{
+  float:left;
+}
